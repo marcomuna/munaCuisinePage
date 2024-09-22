@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url("/PROJECTS/ecommercePage/assets/image.png");
+    background-image: url("/ecommercePage/assets/image.png");
     background-repeat: no-repeat;
     background-size: cover;
     /* overflow: hidden; */
