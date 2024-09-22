@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("/PROJECTS/ecommercePage/assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar ul{
+    list-style: none;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+input{
+    border: none;
+    font-size: 1rem;
+}
+#search{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    width: 18rem;
+    cursor: pointer;
+}
+
+
+/* ? main  */
+.heading{
+    padding:0.5rem 0 3rem 3rem;
+    line-height: 1.5rem;
+    height: 20rem;
+}
+h1{
+    font-size: 7rem;
+    color: whitesmoke;
+    
+}
+h3{
+    color: whitesmoke;
+    font-size: 5rem;
+    
+}
+
+.content{
+
+    background-color: black;
+    opacity: 0.8;
+    color: whitesmoke;
+    width: 50%;
+    height: 9rem;
+    padding: 1.5rem 5rem 3rem 3rem;
+    border-radius: 0 4rem 4rem 0 ;
+    border: 2px solid grey;
+    border-left: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+
+small{
+    font-style: italic;
+    font-family: cursive;
+}
+.swip{
+    display: flex;
+    border-radius: 50%;
+    position: fixed;
+    right: 3rem ;
+    cursor: pointer;
+}
+.swip img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.shadow{
+    /* background-color: black; */
+    position: absolute;
+    height: 5rem;
+    width: 100vw;
+    bottom: 0;
+    box-shadow: 10 5px 10px rgba(0, 0, 0, 1);
+    
+}
